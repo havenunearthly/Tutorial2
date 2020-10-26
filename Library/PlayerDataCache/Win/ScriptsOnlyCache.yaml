@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoxMover
     - CameraScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
@@ -14,6 +15,14 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -45,12 +54,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
+      Script: {instanceID: 600}
     - Class: 114
       Script: {instanceID: 11822}
     - Class: 114
@@ -58,15 +79,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12890}
     - Class: 114
-      Script: {instanceID: 14034}
+      Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 14482}
+      Script: {instanceID: 14036}
     - Class: 114
-      Script: {instanceID: 15116}
+      Script: {instanceID: 14484}
     - Class: 114
-      Script: {instanceID: 15508}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 19746}
+      Script: {instanceID: 15120}
+    - Class: 114
+      Script: {instanceID: 24406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -384,6 +407,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -466,6 +495,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 634a9075edefdb793145d0e5713cbbbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -576,17 +611,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
+    className: BoxMover
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/jxjx_/OneDrive/Desktop/Builds/New Unity Project.exe
+  playerPath: C:/Users/jxjx_/OneDrive/Desktop/Builds/New Unity Project Challenge
+    2/New Unity Project.exe
